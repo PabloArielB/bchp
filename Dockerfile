@@ -20,4 +20,4 @@ RUN make                                   # Asume que tu fork incluye Makefile 
 
 # Puertos y comando de arranque
 EXPOSE 32888                                # Puerto Stratum por defecto :contentReference[oaicite:6]{index=6}
-CMD ["./bchpool", "--config", "/bchpool/config/ckpool.conf"]
+CMD ["./bchpool", "--config", "/bchpool/ckpool.conf"]
